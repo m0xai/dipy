@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dipy"
+version = "0.1.0"
+description = "A simple Discord bot for repeating python basics"
+authors = ["Kerem Zopcuk <keremzopcuk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+"discord.py" = "^2.3.2"
+requests = "^2.31.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
