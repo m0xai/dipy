@@ -10,7 +10,7 @@ Navigate into project folder:
 cd dipy
 ```
 
-Rename an `.env.example` file to `.env` file and paste your app's API Token into it.
+Rename the `.env.example` file to `.env` file and paste your app's API Token into it.
 
 Install dependencies:
 
@@ -29,3 +29,9 @@ Run the app:
 ```shell
 python3 main.py
 ```
+
+To use the bot in your server for downloading and getting insta videos, write:
+
+```text 
+>ig VIDEO_URL
+ ```
