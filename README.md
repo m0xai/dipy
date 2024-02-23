@@ -27,7 +27,7 @@ poetry shell
 Run the app:
 
 ```shell
-python3 main.py
+python3 app.py
 ```
 
 To use the bot in your server for downloading and getting insta videos, write:
